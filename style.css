@@ -1,0 +1,125 @@
+body {
+    background-color: #000000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    cursor: default;
+    color: rgb(185, 202, 216);
+}
+img{
+    width: 50px;
+    height: 75px;
+}
+/* Styling the Form (Color, Padding, Shadow) */
+form {
+    background-color: #d1e8f1;
+    max-width: 500px;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    color: #000000;
+}
+
+/* Styling form-control Class */
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+/* Styling form-control Label */
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Styling form-control input, 
+select, textarea */
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid #777;
+    border-radius: 10px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+    cursor: default;
+}
+
+select{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+button {
+    text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    background-color: #fdffff;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    font-family: inherit;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    transition: background-color 0.5s ease;
+    color: #000000;
+}
+button:hover{
+    background-color: rgb(32, 59, 85);
+}
+@media screen and (min-width: 600px) {
+    label {
+        display: inline-block;
+        width: auto;
+        margin-right: 10px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    input[type="text"] {
+        width: 70%;
+    }
+    body{
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    form {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+
+    }
+    body{
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    form {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+
+    }
+    body{
+        justify-content: center;
+    }
+}

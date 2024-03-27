@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" type="text/css" href="style.css">
+    <title>
+                Survey Form
+    </title>
+</head>
+ 
+<body>
+    <img src="logo.png" alt="logo">
+    <h1>A SURVEY FORM FROM THE SURVEY CORPS</h1>
+
+    <form id="form">
+        <div class="form-control">
+            <label for="name" id="label-name"><strong>
+                Name</strong>
+            </label>
+ 
+            <input type="textarea" id="name"
+                   placeholder="Enter Your Name" />
+        </div>
+ 
+        <div class="form-control">
+            <label for="age" id="label-age"><strong>
+                Age</strong>
+            </label>
+ 
+            <input type="textarea" id="age"
+                   placeholder="Enter Your Age" />
+        </div>
+ 
+        <div class="form-control">
+            <label for="role" id="label-role"><strong>
+                Which option best fits you?</strong>
+            </label>
+                <select name="role" id="role">
+                    <option value="student">Squad leader</option>
+                    <option value="intern">Squad vice captains</option>
+                    <option value="professional">Squad captain</option>
+                    <option value="other">Commanding officer</option>
+                    <option value="other">Squad Member</option>
+                    <option value="other">Horse</option>
+                </select>
+            </div>
+ 
+        <div class="form-control">
+            <label><strong>
+                Who is your favorite Attack on Titan character?</strong>
+            </label>
+ 
+            <label>
+                <input type="radio" name="character" value="eren-jaeger" required><span>Eren Jaeger</span>
+            </label>
+            <label>
+                <input type="radio" name="character" value="mikasa-ackermann" required><span>Mikasa Ackermann</span>
+            </label>
+            <label>
+                <input type="radio" name="character" value="armin-arlert" required><span>Armin Arlert</span>
+            </label>
+            <label>
+                <input type="radio" name="character" value="levi" required><span>Levi Ackermann</span>
+            </label>
+            <label>
+                <input type="radio" name="character" value="other" id="other-character" required><span>Other</span>
+                <input type="text" name="other-character" id="other-character-input" placeholder="Enter Your Favorite Character">
+        </div>
+        <div class="form-control">
+                <label><strong>
+                    Do you prefer the anime or the manga?</strong>
+                </label>
+                <label>
+                    <input type="radio" name="titan" value="colossal-titan" required><span>Anime</span>
+                </label>
+                <label>
+                    <input type="radio" name="titan" value="armored-titan" required><span>Manga</span>
+                </label>
+                <label>
+                    <input type="radio" name="titan" value="beast-titan" required><span>Both</span>
+                </label>
+            </div>
+
+            <div class="button-container">
+                <button type="submit">Submit</button>
+            </div>
+    </form>
+</body>
+ 
+</html>
